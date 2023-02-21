@@ -13,3 +13,11 @@ import './styles/app.scss';
 // start the Stimulus application
 import {Tooltip,Toast,Popover} from 'bootstrap';
 import './bootstrap';
+import './lib/wow/wow.min';
+import './lib/easing/easing.min';
+import './lib/waypoints/waypoints.min';
+import './lib/owlcarousel/owl.carousel.min';
+import './lib/lightbox/js/lightbox.min';
+
+import './js/main';
+

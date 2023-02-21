@@ -21,3 +21,13 @@ php bin/phpunit --testdox
 * lancer la migration
 symfony console make:migration
 symfony console d:m:m
+
+* integration template bootstrap 5
+
+1) importer les fichies css dans 
+assets/styles/app.scss
+2)importer les fichier js dans assets/app.js sans ajouter a la fin de fichier l'extention js 
+3) ajouter dans package.json
+dans "dependencies":{
+  "jquery":"12.1.4"
+}
